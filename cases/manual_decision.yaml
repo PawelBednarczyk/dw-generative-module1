@@ -1,0 +1,14 @@
+artifact_schema_version: 2
+case_id: '18146071'
+source:
+  kind: course_expert_example
+  expert_label_version: W1-calibration-v1
+  visible_to_student: true
+review:
+  by: participant
+  mode: traced_review_before_system
+fragment: there is around XXXX dollars in my account that I dont have access to it
+fact: lost_access_to_funds
+queue: account_access_closure
+priority: urgent
+to_human: 'no'
